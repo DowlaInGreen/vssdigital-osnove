@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Osnove | VSS Digital</title>
+  <meta name="description" content="Praktični vodiči o AI automatizaciji za male biznise u Hrvatskoj. Bez tehničkog žargona.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: #f8fafc; color: #0f172a; }
+
+    nav {
+      background: rgba(15,23,42,0.97);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding: 16px 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 50;
+    }
+    nav .logo { color: #fff; font-weight: 700; font-size: 18px; text-decoration: none; }
+    nav .nav-links { display: flex; gap: 28px; }
+    nav .nav-links a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px; }
+    nav .nav-links a:hover { color: #fff; }
+    nav .nav-cta {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: #fff; padding: 8px 20px; border-radius: 8px;
+      font-size: 14px; font-weight: 600; text-decoration: none;
+    }
+    @media(max-width:640px){ nav .nav-links { display: none; } }
+
+    .hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      padding: 64px 24px 48px;
+      text-align: center;
+    }
+    .hero .badge {
+      display: inline-block;
+      background: rgba(99,102,241,0.15);
+      border: 1px solid rgba(99,102,241,0.3);
+      color: #a78bfa; font-size: 12px; font-weight: 600;
+      padding: 4px 14px; border-radius: 999px; margin-bottom: 20px;
+      text-transform: uppercase; letter-spacing: 0.05em;
+    }
+    .hero h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800; color: #fff; margin-bottom: 12px; }
+    .hero p { color: rgba(255,255,255,0.6); font-size: 1rem; max-width: 520px; margin: 0 auto; }
+
+    .container { max-width: 900px; margin: 0 auto; padding: 48px 24px 80px; }
+
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; }
+
+    .card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 24px;
+      text-decoration: none;
+      color: inherit;
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: block;
+    }
+    .card:hover { box-shadow: 0 8px 32px rgba(99,102,241,0.12); transform: translateY(-2px); }
+    .card .tag {
+      font-size: 11px; font-weight: 600; color: #6366f1;
+      text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px;
+    }
+    .card h2 { font-size: 1rem; font-weight: 700; color: #0f172a; margin-bottom: 8px; line-height: 1.4; }
+    .card p { font-size: 0.875rem; color: #64748b; line-height: 1.6; }
+    .card .read-more { display: inline-block; margin-top: 14px; font-size: 13px; font-weight: 600; color: #6366f1; }
+
+    .cta-box {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      border-radius: 16px; padding: 40px 32px;
+      text-align: center; margin-top: 56px;
+    }
+    .cta-box h3 { color: #fff; font-size: 1.4rem; font-weight: 700; margin-bottom: 8px; }
+    .cta-box p { color: rgba(255,255,255,0.8); margin-bottom: 24px; }
+    .cta-box a {
+      background: #fff; color: #6366f1;
+      padding: 12px 28px; border-radius: 10px;
+      font-weight: 700; text-decoration: none; font-size: 15px;
+    }
+
+    footer { background: #0f172a; color: rgba(255,255,255,0.5); text-align: center; padding: 28px; font-size: 13px; }
+    footer a { color: #a78bfa; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="https://vssdigital.online" class="logo">VSS Digital</a>
+  <div class="nav-links">
+    <a href="https://vssdigital.online/#rjesenja">Rješenja</a>
+    <a href="https://vssdigital.online/#cijene">Cijene</a>
+    <a href="https://novosti.vssdigital.online">AI Novosti</a>
+  </div>
+  <a href="https://vssdigital.online/#kontakt" class="nav-cta">Besplatna analiza</a>
+</nav>
+
+<div class="hero">
+  <div class="badge">AI Osnove</div>
+  <h1>Što svaki mali biznis treba znati o AI-u</h1>
+  <p>Praktični vodiči bez tehničkog žargona. Za poduzetnike koji žele rezultate, ne lekcije.</p>
+</div>
+
+<div class="container">
+  <div class="grid">
+
+    <a href="ai-automatizacija-poslovanja.html" class="card">
+      <div class="tag">Automatizacija</div>
+      <h2>AI Automatizacija Poslovanja: Kako Smanjiti Troškove u 2026.</h2>
+      <p>Kako AI eliminira repetitivne zadatke, smanjuje pogreške i povećava profitabilnost.</p>
+      <span class="read-more">Pročitaj →</span>
+    </a>
+
+    <a href="automatizacija-mali-biznis.html" class="card">
+      <div class="tag">Mali biznis</div>
+      <h2>Automatizacija za Mali Biznis: Uštedite Vrijeme i Novac u 2026.</h2>
+      <p>Kako rasti bez dodatnog zapošljavanja uz low-cost alate i optimizaciju procesa.</p>
+      <span class="read-more">Pročitaj →</span>
+    </a>
+
+    <a href="whatsapp-chatbot-firma.html" class="card">
+      <div class="tag">WhatsApp</div>
+      <h2>WhatsApp Chatbot za Firmu: Povećajte Prodaju i Podršku</h2>
+      <p>Razlika između WhatsApp Business aplikacije i API-ja te kako automatizirati prodaju.</p>
+      <span class="read-more">Pročitaj →</span>
+    </a>
+
+    <a href="chatbot-rezervacije.html" class="card">
+      <div class="tag">Rezervacije</div>
+      <h2>Chatbot za Rezervacije: Automatizirajte Buking 24/7</h2>
+      <p>Kako chatbot transformira hotele, restorane i salone — bez provizije.</p>
+      <span class="read-more">Pročitaj →</span>
+    </a>
+
+    <a href="automatizacija-zakazivanja.html" class="card">
+      <div class="tag">Kalendari</div>
+      <h2>Automatizacija Zakazivanja Termina: Sinkronizirajte Kalendare i CRM</h2>
+      <p>Eliminacija "back-and-forth" emailova — tehnički vodič za male biznise.</p>
+      <span class="read-more">Pročitaj →</span>
+    </a>
+
+    <a href="ai-hrvatski-poduzetnici.html" class="card">
+      <div class="tag">Hrvatska</div>
+      <h2>AI za Hrvatski Mali Poduzetnici i Obrtnike</h2>
+      <p>Besplatne edukacije i vaučeri za digitalizaciju — što postoji i kako iskoristiti.</p>
+      <span class="read-more">Pročitaj →</span>
+    </a>
+
+    <a href="digitalizacija-malog-poduzeca.html" class="card">
+      <div class="tag">Digitalizacija</div>
+      <h2>Digitalizacija Malog Poduzeća: Vodič za Potpunu Transformaciju</h2>
+      <p>Kako izgraditi digitalnu bazu, povezati procese i eliminirati ručni rad.</p>
+      <span class="read-more">Pročitaj →</span>
+    </a>
+
+    <a href="automatizacija-dokumenata.html" class="card">
+      <div class="tag">Dokumenti</div>
+      <h2>Automatizacija Dokumenata: Uštedite 80% Vremena na Administraciji</h2>
+      <p>Kako AI i OCR eliminiraju ručni unos podataka i ubrzavaju obradu faktura.</p>
+      <span class="read-more">Pročitaj →</span>
+    </a>
+
+    <a href="chatbot-web-stranica.html" class="card">
+      <div class="tag">Cijene</div>
+      <h2>Chatbot za Web Stranicu: Vodič za Investiciju (2026)</h2>
+      <p>Koliko zapravo košta chatbot i kako izračunati povrat investicije.</p>
+      <span class="read-more">Pročitaj →</span>
+    </a>
+
+    <a href="top-5-ai-rjesenja-obrtnici.html" class="card">
+      <div class="tag">Alati</div>
+      <h2>Top 5 AI Rješenja za Obrtnike: Uštedite Vrijeme i Novac</h2>
+      <p>Najbolja AI rješenja za obrtnike u 2026. — digitalizirajte obrt bez muke.</p>
+      <span class="read-more">Pročitaj →</span>
+    </a>
+
+  </div>
+
+  <div class="cta-box">
+    <h3>Trebate AI automatizaciju za vaš biznis?</h3>
+    <p>Besplatna analiza u 30 minuta — identificiramo vaša 3 glavna problema.</p>
+    <a href="https://vssdigital.online/#kontakt">Zakaži besplatnu analizu</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 <a href="https://vssdigital.online">VSS Digital</a> — AI automatizacija za mali biznis u Hrvatskoj</p>
+</footer>
+
+</body>
+</html>
